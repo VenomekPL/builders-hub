@@ -4567,5 +4567,92 @@
     "isActive": true,
     "isEvm": true,
     "isIndexed": false
+  },
+  {
+    "chainId": "455",
+    "chainName": "TSX Horizon",
+    "isActive": true,
+    "chainLogoURI": "https://tsx.network/brand/icon.png",
+    "subnetId": "2sYMJH1LWdY7QCbnRLeGKx93PiuxKGKcsYtPyFsc5ZaQYRvVxo",
+    "slug": "tsx-horizon",
+    "color": "#E84142",
+    "category": "General",
+    "description": "The open TSX chain. Anyone can deploy contracts and use them, with no sign-up. EVM-compatible, about one-second blocks, fees paid in TSX.",
+    "website": "https://tsx.network",
+    "explorers": [
+      {
+        "name": "TSX Explorer",
+        "link": "https://scan.tsx.network/horizon"
+      }
+    ],
+    "rpcUrl": "https://horizon.tsx.network/rpc",
+    "blockchainId": "0x6ed2c0c559fa214432da982629a4fde4174f2d1ec307ad6e87ac0261ca4f50c6",
+    "networkToken": {
+      "name": "TSX",
+      "symbol": "TSX",
+      "decimals": 18,
+      "logoUri": "https://tsx.network/brand/icon.png",
+      "description": "TSX is the gas coin of the TSX chains. It is sold at a fixed 1 USD on Avalanche C-Chain and moves between Horizon and Bastion through Avalanche interchain messaging."
+    },
+    "isTestnet": false,
+    "isEvm": true
+  },
+  {
+    "chainId": "454",
+    "chainName": "TSX Bastion",
+    "isActive": true,
+    "chainLogoURI": "https://tsx.network/brand/icon.png",
+    "subnetId": "ahFffnMBHeMhTDHp2Gesb5GVwndjSbummzhCRoDsBr6hHU8M3",
+    "slug": "tsx-bastion",
+    "color": "#86EFAC",
+    "category": "General",
+    "description": "The curated TSX chain. Anyone can use it, but only approved builders can deploy contracts, through the contract deployer allowlist. EVM-compatible, fees paid in TSX.",
+    "website": "https://tsx.network",
+    "explorers": [
+      {
+        "name": "TSX Explorer",
+        "link": "https://scan.tsx.network/bastion"
+      }
+    ],
+    "rpcUrl": "https://bastion.tsx.network/rpc",
+    "blockchainId": "0xd2e8683376db3849439e8ee039511ca1ac01c426cb6447cf5b9d463c8baf9a8e",
+    "networkToken": {
+      "name": "TSX",
+      "symbol": "TSX",
+      "decimals": 18,
+      "logoUri": "https://tsx.network/brand/icon.png",
+      "description": "TSX is the gas coin of the TSX chains. It is sold at a fixed 1 USD on Avalanche C-Chain and moves between Horizon and Bastion through Avalanche interchain messaging."
+    },
+    "isTestnet": false,
+    "isEvm": true
+  },
+  {
+    "chainId": "445",
+    "chainName": "TSX Testnet",
+    "isActive": true,
+    "chainLogoURI": "https://tsx.network/brand/icon.png",
+    "subnetId": "mtLsvDccUDJVfqGsHiYbnqyqDbjAoSMEyHfpcJd4fsUXy7Pnb",
+    "slug": "tsx-testnet",
+    "color": "#DCE3F0",
+    "category": "General",
+    "description": "The TSX test chain, for trying contracts before Horizon or Bastion. It runs on the Avalanche Mainnet P-Chain but its coins are free from the faucet at tsx.network/faucet.",
+    "website": "https://tsx.network",
+    "explorers": [
+      {
+        "name": "TSX Explorer",
+        "link": "https://scan.tsx.network/testnet"
+      }
+    ],
+    "rpcUrl": "https://testnet.tsx.network/rpc",
+    "blockchainId": "0xd862eec7879b09e7b05dd740bb3d3f91478dc54331d99db0110b600e70e77a1f",
+    "networkToken": {
+      "name": "TSX",
+      "symbol": "TSX",
+      "decimals": 18,
+      "logoUri": "https://tsx.network/brand/icon.png",
+      "description": "TSX is the gas coin of the TSX chains. It is sold at a fixed 1 USD on Avalanche C-Chain and moves between Horizon and Bastion through Avalanche interchain messaging."
+    },
+    "isTestnet": true,
+    "isEvm": true
   }
 ]
