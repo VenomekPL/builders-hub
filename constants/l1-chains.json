@@ -4579,6 +4579,9 @@
     "category": "General",
     "description": "The open TSX chain. Anyone can deploy contracts and use them, with no sign-up. EVM-compatible, about one-second blocks, fees paid in TSX.",
     "website": "https://tsx.network",
+    "socials": {
+      "twitter": "tsx_blockchain"
+    },
     "explorers": [
       {
         "name": "TSX Explorer",
@@ -4608,6 +4611,9 @@
     "category": "General",
     "description": "The curated TSX chain. Anyone can use it, but only approved builders can deploy contracts, through the contract deployer allowlist. EVM-compatible, fees paid in TSX.",
     "website": "https://tsx.network",
+    "socials": {
+      "twitter": "tsx_blockchain"
+    },
     "explorers": [
       {
         "name": "TSX Explorer",
@@ -4637,6 +4643,9 @@
     "category": "General",
     "description": "The TSX test chain, for trying contracts before Horizon or Bastion. It runs on the Avalanche Mainnet P-Chain but its coins are free from the faucet at tsx.network/faucet.",
     "website": "https://tsx.network",
+    "socials": {
+      "twitter": "tsx_blockchain"
+    },
     "explorers": [
       {
         "name": "TSX Explorer",
